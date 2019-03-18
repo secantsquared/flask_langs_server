@@ -5,7 +5,9 @@ import requests
 import pandas as pd
 import json
 from dotenv import load_dotenv
+from flask_cors import CORS
 app = Flask(__name__)
+CORS(app)
 
 
 def parseLinkHeader(headers):

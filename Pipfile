@@ -10,6 +10,7 @@ flask = "*"
 requests = "*"
 pandas = "*"
 python-dotenv = "*"
+flask-cors = "*"
 
 [requires]
 python_version = "3.7"
