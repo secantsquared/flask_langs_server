@@ -54,7 +54,7 @@ def langs():
     )
 
 
-@app.route('/commits')
+@app.route('/')
 def commits():
     client_id = env['CLIENT_ID']
     client_secret = env['CLIENT_SECRET']
